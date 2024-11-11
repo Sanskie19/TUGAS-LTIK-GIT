@@ -8,3 +8,6 @@ def menu_login():
     print(f"Username: {username}")
     while kesempatan > 0:
         password_input = input("Masukkan password: ")
+        
+        if password_input == password_benar:
+            print("Login berhasil! Selamat datang.")
