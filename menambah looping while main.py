@@ -6,3 +6,5 @@ def menu_login():
     
     print("Selamat datang di menu login!")
     print(f"Username: {username}")
+    while kesempatan > 0:
+        password_input = input("Masukkan password: ")
